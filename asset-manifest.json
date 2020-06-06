@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SkillTrackerApp/static/css/main.94635ba8.chunk.css",
+    "main.js": "/SkillTrackerApp/static/js/main.c8d35f8f.chunk.js",
+    "main.js.map": "/SkillTrackerApp/static/js/main.c8d35f8f.chunk.js.map",
+    "runtime-main.js": "/SkillTrackerApp/static/js/runtime-main.a0d03c9c.js",
+    "runtime-main.js.map": "/SkillTrackerApp/static/js/runtime-main.a0d03c9c.js.map",
+    "static/js/2.b275e880.chunk.js": "/SkillTrackerApp/static/js/2.b275e880.chunk.js",
+    "static/js/2.b275e880.chunk.js.map": "/SkillTrackerApp/static/js/2.b275e880.chunk.js.map",
+    "index.html": "/SkillTrackerApp/index.html",
+    "precache-manifest.1fdc8e5e845a07ae519df3d60f55e7fc.js": "/SkillTrackerApp/precache-manifest.1fdc8e5e845a07ae519df3d60f55e7fc.js",
+    "service-worker.js": "/SkillTrackerApp/service-worker.js",
+    "static/css/main.94635ba8.chunk.css.map": "/SkillTrackerApp/static/css/main.94635ba8.chunk.css.map",
+    "static/js/2.b275e880.chunk.js.LICENSE.txt": "/SkillTrackerApp/static/js/2.b275e880.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/SkillTrackerApp/static/media/img1.8659c389.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0d03c9c.js",
+    "static/js/2.b275e880.chunk.js",
+    "static/css/main.94635ba8.chunk.css",
+    "static/js/main.c8d35f8f.chunk.js"
+  ]
+}
