@@ -41,7 +41,7 @@ class signUp extends Component {
    signUpAction = e => {
     e.preventDefault();
 console.log("submitted");
-axios.post('http://localhost:8080/testjpa_war_exploded/api/register', this.state).then(response => {
+axios.post('http://localhost:8088/testjpa_war_exploded/api/register', this.state).then(response => {
 if(response.data!=null)
 {
     alert("Hello "+this.state.fullName +"!" + "You are now registered on our portal");
