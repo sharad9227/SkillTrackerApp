@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SkillTrackerApp/precache-manifest.87582ccc80a1c38f4c1c482df9afd99e.js"
+  "/SkillTrackerApp/precache-manifest.40613fe940297ac5762bb671bd36b67d.js"
 );
 
 self.addEventListener('message', (event) => {
