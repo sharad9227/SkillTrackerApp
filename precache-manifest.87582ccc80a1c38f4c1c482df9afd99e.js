@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a0066040448db620b3e77aacc70438a",
+    "revision": "b4f3af1292d912e884e7ae027a614fc5",
     "url": "/SkillTrackerApp/index.html"
   },
   {
-    "revision": "8ff6ff290a7cb6aedab0",
+    "revision": "f658f9e847a03a5d794d",
     "url": "/SkillTrackerApp/static/css/main.94635ba8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SkillTrackerApp/static/js/2.b275e880.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8ff6ff290a7cb6aedab0",
-    "url": "/SkillTrackerApp/static/js/main.d2037423.chunk.js"
+    "revision": "f658f9e847a03a5d794d",
+    "url": "/SkillTrackerApp/static/js/main.6220bf01.chunk.js"
   },
   {
     "revision": "e173b152960a0f70886c",
