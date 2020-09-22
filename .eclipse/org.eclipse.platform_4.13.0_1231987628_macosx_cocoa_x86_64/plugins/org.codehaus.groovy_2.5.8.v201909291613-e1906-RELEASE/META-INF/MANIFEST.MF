@@ -1,0 +1,158 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.codehaus.groovy
+Bundle-SymbolicName: org.codehaus.groovy
+Built-By: bamboo
+Require-Bundle: org.eclipse.core.runtime,org.apache.ant;resolution:=op
+ tional,org.junit;resolution:=optional
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:git://github.com/gitroot/groovy/groo
+ vy-eclipse;path="base/org.codehaus.groovy25";tag="v3.5.0";commitId=51
+ 8da1ea7c2a75ff572a01311556418cceef66d2
+Bundle-Vendor: Pivotal Software, Inc.
+Export-Package: groovy.beans;version="2.5.8",groovy.cli;version="2.5.8
+ ",groovy.grape;version="2.5.8",groovy.inspect;version="2.5.8",groovy.
+ io;version="2.5.8",groovy.lang;version="2.5.8",groovy.mock.intercepto
+ r;version="2.5.8",groovy.security;version="2.5.8",groovy.test;version
+ ="2.5.8",groovy.time;version="2.5.8",groovy.transform;version="2.5.8"
+ ,groovy.transform.builder;version="2.5.8",groovy.transform.options;ve
+ rsion="2.5.8",groovy.transform.stc;version="2.5.8",groovy.ui;version=
+ "2.5.8",groovy.util;version="2.5.8",groovy.util.logging;version="2.5.
+ 8",groovy.xml;version="2.5.8",groovyjarjarantlr;x-friends:="org.codeh
+ aus.groovy.eclipse.refactoring",org.apache.groovy.ast.tools;version="
+ 2.5.8",org.apache.groovy.internal.metaclass;x-internal:=true,org.apac
+ he.groovy.internal.util;x-internal:=true,org.apache.groovy.io;version
+ ="2.5.8",org.apache.groovy.lang.annotation;version="2.5.8",org.apache
+ .groovy.metaclass;version="2.5.8",org.apache.groovy.plugin;version="2
+ .5.8",org.apache.groovy.util;version="2.5.8",org.apache.groovy.util.c
+ oncurrentlinkedhashmap;version="2.5.8",org.codehaus.groovy;version="2
+ .5.8",org.codehaus.groovy.antlr;version="2.5.8",org.codehaus.groovy.a
+ ntlr.java;version="2.5.8",org.codehaus.groovy.antlr.parser;version="2
+ .5.8",org.codehaus.groovy.antlr.treewalker;version="2.5.8",org.codeha
+ us.groovy.ast;version="2.5.8",org.codehaus.groovy.ast.builder;version
+ ="2.5.8",org.codehaus.groovy.ast.decompiled;version="2.5.8",org.codeh
+ aus.groovy.ast.expr;version="2.5.8",org.codehaus.groovy.ast.stmt;vers
+ ion="2.5.8",org.codehaus.groovy.ast.tools;version="2.5.8",org.codehau
+ s.groovy.classgen;version="2.5.8",org.codehaus.groovy.classgen.asm;ve
+ rsion="2.5.8",org.codehaus.groovy.classgen.asm.indy;version="2.5.8",o
+ rg.codehaus.groovy.classgen.asm.indy.sc;version="2.5.8",org.codehaus.
+ groovy.classgen.asm.sc;version="2.5.8",org.codehaus.groovy.classgen.a
+ sm.util;version="2.5.8",org.codehaus.groovy.control;version="2.5.8",o
+ rg.codehaus.groovy.control.customizers;version="2.5.8",org.codehaus.g
+ roovy.control.customizers.builder;version="2.5.8",org.codehaus.groovy
+ .control.io;version="2.5.8",org.codehaus.groovy.control.messages;vers
+ ion="2.5.8",org.codehaus.groovy.eclipse,org.codehaus.groovy.plugin;ve
+ rsion="2.5.8",org.codehaus.groovy.reflection;version="2.5.8",org.code
+ haus.groovy.reflection.android;version="2.5.8",org.codehaus.groovy.re
+ flection.stdclasses;version="2.5.8",org.codehaus.groovy.reflection.v7
+ ;version="2.5.8",org.codehaus.groovy.runtime;version="2.5.8",org.code
+ haus.groovy.runtime.callsite;version="2.5.8",org.codehaus.groovy.runt
+ ime.dgmimpl;version="2.5.8",org.codehaus.groovy.runtime.dgmimpl.array
+ s;version="2.5.8",org.codehaus.groovy.runtime.m12n;version="2.5.8",or
+ g.codehaus.groovy.runtime.memoize;version="2.5.8",org.codehaus.groovy
+ .runtime.metaclass;version="2.5.8",org.codehaus.groovy.runtime.powera
+ ssert;version="2.5.8",org.codehaus.groovy.runtime.typehandling;versio
+ n="2.5.8",org.codehaus.groovy.runtime.wrappers;version="2.5.8",org.co
+ dehaus.groovy.syntax;version="2.5.8",org.codehaus.groovy.tools;versio
+ n="2.5.8",org.codehaus.groovy.tools.ast;version="2.5.8",org.codehaus.
+ groovy.tools.gse;version="2.5.8",org.codehaus.groovy.tools.javac;vers
+ ion="2.5.8",org.codehaus.groovy.tools.shell;version="2.5.8",org.codeh
+ aus.groovy.tools.shell.util;version="2.5.8",org.codehaus.groovy.trans
+ form;version="2.5.8",org.codehaus.groovy.transform.sc;version="2.5.8"
+ ,org.codehaus.groovy.transform.sc.transformers;version="2.5.8",org.co
+ dehaus.groovy.transform.stc;version="2.5.8",org.codehaus.groovy.trans
+ form.tailrec;version="2.5.8",org.codehaus.groovy.transform.trait;vers
+ ion="2.5.8",org.codehaus.groovy.util;version="2.5.8",org.codehaus.gro
+ ovy.vmplugin;version="2.5.8",org.codehaus.groovy.vmplugin.v5;version=
+ "2.5.8",org.codehaus.groovy.vmplugin.v6;version="2.5.8",org.codehaus.
+ groovy.vmplugin.v7;version="2.5.8",org.codehaus.groovy.vmplugin.v8;ve
+ rsion="2.5.8",org.codehaus.groovy.vmplugin.v9;version="2.5.8"
+Bundle-Name: Apache Groovy
+Bundle-Version: 2.5.8.v201909291613-e1906-RELEASE
+Bundle-ClassPath: eclipse-trace.jar,groovy-eclipse.jar,lib/ivy-2.4.0.j
+ ar,lib/groovy-2.5.8-indy.jar,lib/groovy-test-2.5.8-indy.jar
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_212
+Eclipse-BundleShape: dir
+
+Name: plugin_dsld_support/readme.txt
+SHA-256-Digest: nFFyosMdb/QzvH0/T3QxWOeOuGQLKTO0z9347f8A/vI=
+
+Name: META-INF/maven/org.codehaus.groovy.eclipse/org.codehaus.groovy/p
+ om.xml
+SHA-256-Digest: Ddlmqz7uKX5mrJTAj3i4kWJOvsAUr/UWdBh3XHmv79M=
+
+Name: lib/groovy-test-2.5.8-javadoc.jar
+SHA-256-Digest: DNI99r0/Pf9rlUn/4cGmhuZAph9LnW8FE36ypbkAqrw=
+
+Name: lib/groovy-test-2.5.8-indy.jar
+SHA-256-Digest: LksyEv/Mqa14G8Oj6NeEwexO5OwdC5bBSKGeCuvWn08=
+
+Name: plugin_dsld_support/dsld/meta_script.dsld
+SHA-256-Digest: sFUOiTZqRPahlUqensZ7sk0Q7Qqr74A2aoFLoWythX0=
+
+Name: lib/groovy-2.5.8-javadoc.jar
+SHA-256-Digest: mdrz/4M7S7PbR4DyeVFRAPYY0H5M26fGOBuINZ02BQQ=
+
+Name: lib/groovy-2.5.8-indy.jar
+SHA-256-Digest: h7Mftko8jkG2bge/Rd64NMElBxr6/ngLSIJ9z8HTD5M=
+
+Name: lib/ivy-2.4.0.jar
+SHA-256-Digest: zoHLI0QGsJO1uN6fb1sqUO0IJNaiNYkTU+jT6UGlOXA=
+
+Name: lib/groovy-test-2.5.8-sources.jar
+SHA-256-Digest: mPeR/7FaQO4mjD8IafegHY7APXgLJcXYAnmWYsh5AI4=
+
+Name: lib/groovy-2.5.8-sources.jar
+SHA-256-Digest: /AlJjNlzMUqEolwfBjTUi7u44ufbkFoO2W93JXrIDW8=
+
+Name: groovy-eclipse.jar
+SHA-256-Digest: vByTm7Os2EYwQ94FHa0WlYQz8MOTo5/SfvP0hkMGrMU=
+
+Name: about.html
+SHA-256-Digest: +m5WbaMx1Wy0EasiifQsXt/nxyzJNbn7ln1LSr5IwRY=
+
+Name: about_files/asm-license.txt
+SHA-256-Digest: 5ZJ2qIe9ZNZeQcqv3wr16I29KGY7CnKyTVIsAox4QRU=
+
+Name: plugin_dsld_support/dsld/beans_transforms.dsld
+SHA-256-Digest: YzAAyPvavEFCH2v/7iXypUdcY/uqyGbUXYbCBAVFxIU=
+
+Name: plugin_dsld_support/dsld/logging_transforms.dsld
+SHA-256-Digest: 4npqr2Dd0uJ+gcT7do3+OxBrKa+D3qu+6UKBXLbCO+o=
+
+Name: plugin_dsld_support/dsld/swing_builder.dsld
+SHA-256-Digest: K6vHMOBqckm69qLGunW5XMqrRHyIvDXIuutF4SQ2bno=
+
+Name: about_files/asl2-license.txt
+SHA-256-Digest: 4OrWFMOM7pA2RivJoNuhj2l4EDMyuCx7nGHzSjNgrUY=
+
+Name: about_files/antlr2-license.txt
+SHA-256-Digest: BdzbnBAis17vahxXDhnWN66/9225O8glCpswUm+q85A=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: kfSeGRPm/vZbeBXwEhTfd1tEaEIGB014JBpSGDpYVjM=
+
+Name: plugin_dsld_support/dsld/script_config.dsld
+SHA-256-Digest: TwdXypN0AWq3UsmjRFWaknILEE3tJH8gNi1VNckOv9g=
+
+Name: plugin_dsld_support/dsld/basic_transforms.dsld
+SHA-256-Digest: eFeoYREYsqyC3xuWRJgN6fTWKT40zJev7AjWXjGc/Rk=
+
+Name: lib/ivy-2.4.0-javadoc.jar
+SHA-256-Digest: q2GBQ0N+VOPXOHYccrE7VTfW0ot56A9hBbTTKGUBZto=
+
+Name: plugin_dsld_support/dsld/builder_transform.dsld
+SHA-256-Digest: m6ws7dOLyDZrm+kCK9RFCHqUz/6oxrpe3E3hcOGkOjU=
+
+Name: META-INF/maven/org.codehaus.groovy.eclipse/org.codehaus.groovy/p
+ om.properties
+SHA-256-Digest: 5kaxtDTLXnfXorINb5JoAdG+T9NaSdWXyHeVGylH4EI=
+
+Name: lib/ivy-2.4.0-sources.jar
+SHA-256-Digest: lu+5lJ6JOnNJph8Wpyzm4qETl58g2Ne4BhDS5mtk7vU=
+
+Name: eclipse-trace.jar
+SHA-256-Digest: VIQnP13bdbohtHvKlLrP1ctViy9Ui7h7SEp5i51kRNU=
+
